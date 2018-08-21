@@ -1,0 +1,63 @@
+html,
+body {
+  width: 100%;
+  overflow-x: hidden;
+}
+
+/* 内容 */
+div.container {
+  background: #f7eee5;
+  padding: 15px;
+  text-align: justify;
+  color: #555;
+  background: #fff;
+}
+
+div.container div.fiction_content h4 {
+  font-size: 20px;
+  border-bottom: 1px solid #736357;
+  letter-spacing: 2px;
+  line-height: 32px;
+  margin: 0 0 1em 0;
+}
+
+div.container div.fiction_content p {
+  letter-spacing: 0;
+  margin: 0.5em 0;
+  line-height: 24px;
+}
+
+div.fiction_pages {
+  text-align: center;
+  font-size: 14px;
+  padding: 5px;
+  margin: 10px;
+  max-width: 900px;
+  margin: 0 auto;
+  width: 70%;
+}
+
+div.fiction_pages ul {
+  position: relative;
+  height: 34px;
+  margin: 10px auto;
+  line-height: 34px;
+  border-radius: 8px;
+  border: 1px solid #858382;
+  font-size: 13px;
+  background: #000;
+  opacity: 0.9;
+}
+
+div.fiction_pages ul li {
+  display: inline-block;
+  width: 49%;
+  font-size: 13px;
+  border-right: 1px solid #858382;
+  text-align: center;
+  color: #fff;
+}
+
+div.fiction_pages ul li:nth-child(2) {
+  border-right: none;
+}
